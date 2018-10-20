@@ -1,186 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <cc:Work rdf:about="">
-    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
-            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/8641">
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb030b94699d644a28c5bfc529b762ad2">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Isles of Shoals (Me. and N.H.)</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N402b6aebb9ce4eb5b0e504187e35a607">
-        <rdf:value>Authors, American -- Homes and haunts -- Massachusetts -- Concord</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nfed3e23f2a7a4b69bac7240a0d8c4daf">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-08-01</dcterms:issued>
-    <dcterms:title>Sketches from Concord and Appledore&#13;
-Concord thirty years ago; Nathaniel Hawthorne; Louisa M. Alcott; Ralph Waldo Emerson; Matthew Arnold; David A. Wasson; Wendell Phillips; Appledore and its visitors; John Greenleaf Whittier</dcterms:title>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8a02f6a0c7df48f3a9145440335ba935">
-        <rdf:value>Concord (Mass.)</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N070d81374b84420482b082f8ba84ae2f">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na7075a35b590451dbd2a1c894dfb166e">
+      <rdf:Description rdf:nodeID="N10840f206efa44318fe5d3598e5bf321">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Whittier, John Greenleaf, 1807-1892</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678359</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:25.469495</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678354</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb7aa6816123a4fa997f4d890dabc1a0b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N5917b61b39dc41eab7783a2ffd09597a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:52.362659</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne802e0fe53d54233b635b30a58a5b603">
+      <rdf:Description rdf:nodeID="N324677bfc6a84bc39a8276d93d9f0909">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Phillips, Wendell, 1811-1884</rdf:value>
+        <rdf:value>Hawthorne, Nathaniel, 1804-1864</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N4daa081050e94e279268b45abff8a534">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Concord (Mass.)</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.html.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:24.161526</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf7b0222877034aa4a7e48b1f7e6b1f76">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          <rdf:Description rdf:nodeID="N8e34285bec3d4c09b86de88681cc1b74">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">403835</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:50.416740</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167371</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb5298ae98cfb4f1a8c608a435c4f8bc0">
-        <rdf:value>Concord (Mass.) -- Intellectual life -- 19th century</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678347</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:23.525546</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N26279729524740dca3e2bfa88552480e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="Nf3552e4a69854f9abfeb4ee29f6a9bca">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:53.845588</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387051</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf8710a7afaa848ccb91c516eb873d091">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Alcott, Louisa May, 1832-1888</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nc7a9311f80f54b18980adccd40b585af">
+      <rdf:Description rdf:nodeID="Nf4f42cea9944439c87f51a22a16d62e8">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Emerson, Ralph Waldo, 1803-1882 -- Homes and haunts -- Massachusetts -- Concord</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/8641/8641.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-17T14:38:20</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152315</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2d182855d4a844c7bb3f727d5b58ebb9">
+          <rdf:Description rdf:nodeID="N9c9a36677fe243bfac54dce198a617cd">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-17T14:38:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152315</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N526c0a8c58dc4f5aacdcf51326a5f1c4">
+          <rdf:Description rdf:nodeID="Ncfcd0740ed2e4109a53a78eb9bdfcea3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</pgterms:downloads>
+    <dcterms:title>Sketches from Concord and Appledore&#13;
+Concord thirty years ago; Nathaniel Hawthorne; Louisa M. Alcott; Ralph Waldo Emerson; Matthew Arnold; David A. Wasson; Wendell Phillips; Appledore and its visitors; John Greenleaf Whittier</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167375</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:50.932718</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.html.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:23.904517</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N334fa4efaae74e928fe40bafc9fc36f1">
+          <rdf:Description rdf:nodeID="N0ec9715cea1b4e87b555987d5c43be06">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.rdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:38:24.158214</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13867</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd314a5a468f44765b0dd77858ad26cef">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">403835</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na46c96261fb345e29530c99685319bd0">
+      <rdf:Description rdf:nodeID="Ndea18fd001ca4d73823d04069dfb0f9c">
         <rdf:value>Arnold, Matthew, 1822-1888</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N036cc1dcb3bb4040a76317847c3beba0">
-        <rdf:value>Wasson, David Atwood, 1823-1887</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-08-01</dcterms:issued>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd1d0a438a6b54d4c90f4e2787731948e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678343</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:26.763483</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">403835</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:50.261744</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:23.826522</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1cafa7543eb84a2aa1387ef07b69c8dc">
+          <rdf:Description rdf:nodeID="N865e4d54f12549b39b15462e6fc5f7c0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -188,64 +141,111 @@ Concord thirty years ago; Nathaniel Hawthorne; Louisa M. Alcott; Ralph Waldo Eme
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:tableOfContents>Concord thirty-odd years ago -- Hawthorne -- Louisa M. Alcott -- Emerson himself -- Matthew Arnold's lecture -- David A. Wasson -- Wendell Phillips -- Appledore and the Laightons -- Whittier.</dcterms:tableOfContents>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167375</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf46b431b128a43bd9973e886c3328c6f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:50.743726</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/8641/8641.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387081</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-17T14:21:54</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na8eb952ce6784f5eaaf9e28e54313d4f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:03:49.515785</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387051</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N76bbebede3df435bb8c84771cf5622ec">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N04c39241428e41d689225b0a08c1c4c1">
-        <rdf:value>F001</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/2362">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</pgterms:deathdate>
-        <pgterms:name>Stearns, Frank Preston</pgterms:name>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1846</pgterms:birthdate>
+        <pgterms:name>Stearns, Frank Preston</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</pgterms:deathdate>
       </pgterms:agent>
     </dcterms:creator>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf0446e67b3b84b7bb2b2db485accbb76">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167370</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:16:24.066560</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4297244e343f407ca0ca5312778e67c8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5ebd907cbff54a53952d73e84e618ec1">
+      <rdf:Description rdf:nodeID="Naf3434e7f9ad4dc09fa93772741ad33f">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Hawthorne, Nathaniel, 1804-1864</rdf:value>
+        <rdf:value>Phillips, Wendell, 1811-1884</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N39fc3cb185644f3d8647f51c25cc3a69">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>F001</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nfbdaf99394b941be9f5a265a69706dbc">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N73303654a5064cd691886363fd8f54fb">
+        <rdf:value>Concord (Mass.) -- Intellectual life -- 19th century</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/8641/8641.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-17T14:21:54</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387081</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nda9048756c974996ab3f1c343863bb5b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N454638c01c124d52a3f859dfd683e371">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Alcott, Louisa May, 1832-1888</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8641.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/8641"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13881</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:06:33.312731</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0c85fb98b56e4834963202ad37256a70">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N073fbbaf75c44a78b09c0e580e46de8c">
+        <rdf:value>Wasson, David Atwood, 1823-1887</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N4de57f2d18074c21915cffdb604877ba">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Authors, American -- Homes and haunts -- Massachusetts -- Concord</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0f2c64558be64c8687f25335787e2f51">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Isles of Shoals (Me. and N.H.)</rdf:value>
       </rdf:Description>
     </dcterms:subject>
   </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
 </rdf:RDF>
